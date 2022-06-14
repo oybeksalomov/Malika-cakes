@@ -1,0 +1,62 @@
+/*max media*/
+
+@media (max-width: 991.98px) {
+    .home-order__title {
+        font-size: 1.25rem;
+    }
+    .cakes-price {
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    
+    }
+    .cakes-price hr {
+        width:0;
+    }
+    .for-mobile {
+        visibility: visible;
+    }
+
+}
+@media (max-width: 767.98px) {
+    /*header*/
+    header i {
+        font-size: 1.5rem;
+    }
+    /*home order*/
+    .home-order__2card {
+        height: 10rem;
+    }
+    .home-order__title {
+        font-size: 1.3rem;
+    }
+
+    /*about.html > about me */
+
+    .about-me__background p {
+        padding: 0 0.75rem;
+    }
+    
+    .contact>div {
+        width: 100%;
+    }
+}
+
+
+/*min media*/
+@media (min-width: 768px) {
+    .header-section__border {
+        border-bottom: 3px solid #000;
+    }
+}
+
+@media (min-width: 992px) {
+    /*home-order*/
+    .home-order__image {
+        height: 30rem;
+    }
+    .home-order__image img {
+        object-fit: cover;
+        height: 100%;
+    }
+}

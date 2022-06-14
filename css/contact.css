@@ -1,0 +1,18 @@
+/*contact*/
+.contact-title {
+    font-family: 'Raleway', sans-serif;
+}
+.contact-title hr {
+    width: 2rem;
+}
+.contact>div {
+    width: 60%;
+}
+.contact-form {
+    border-radius: 0%;
+    border: none;
+    border-bottom: 2px solid rgb(145, 145, 145);
+}
+.contact-form:hover {
+    border-bottom: 2px solid #000;
+}

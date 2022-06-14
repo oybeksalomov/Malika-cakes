@@ -1,0 +1,42 @@
+/*Header*/
+header i {
+    color: #000;
+
+}
+header span a {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+/*Newsletter*/
+.newsletter-title h5,
+.newsletter-form form {
+    display: inline-block;
+}
+.newsletter-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.newsletter-form form {
+    width: 18rem;
+}
+.newsletter-form__input {
+    font-family: 'Raleway', sans-serif;
+}
+.newsletter-form__input:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+.newsletter-form__button {
+    width: 18rem;
+}
+
+/*footer*/
+.footer {
+    background-color: #F7E9E4;
+}
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.075rem;
+}
